@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,13 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Custom colors for our course platform
+				'brand-blue': '#4F46E5',
+				'brand-purple': '#8B5CF6',
+				'brand-teal': '#06B6D4',
+				'brand-light': '#F3F4F6',
+				'brand-dark': '#1F2937',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

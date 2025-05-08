@@ -36,3 +36,22 @@ export type Category = {
   name: string;
   courses: number;
 };
+
+export type Mentor = {
+  id: string;
+  name: string;
+  title: string; 
+  avatar: string;
+  bio: string;
+  rating: number;
+  reviewCount: number;
+  hourlyRate: number;
+  availability: string;
+  specialties: string[];
+  experience: number;
+  joinedDate: string;
+  languages: {
+    name: string;
+    level: string;
+  }[];
+};

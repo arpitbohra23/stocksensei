@@ -14,6 +14,9 @@ import Cart from "./pages/Cart";
 import Admin from "./pages/Admin";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import Mentors from "./pages/Mentors";
+import MentorDetail from "./pages/MentorDetail";
+import BookingPage from "./pages/BookingPage";
 import { AuthProvider } from "./context/AuthContext";
 import { CartProvider } from "./context/CartContext";
 
@@ -31,6 +34,9 @@ const App = () => (
               <Route path="/" element={<Index />} />
               <Route path="/courses" element={<Courses />} />
               <Route path="/courses/:id" element={<CourseDetails />} />
+              <Route path="/mentors" element={<Mentors />} />
+              <Route path="/mentors/:id" element={<MentorDetail />} />
+              <Route path="/book/:id" element={<BookingPage />} />
               <Route path="/login" element={<Login />} />
               <Route path="/register" element={<Register />} />
               <Route path="/cart" element={<Cart />} />

@@ -21,6 +21,11 @@ const CallToAction = () => {
                   Browse Courses
                 </Button>
               </Link>
+              <Link to="/mentors">
+                <Button size="lg" className="bg-bull-red text-white hover:bg-red-700">
+                  Find a Mentor
+                </Button>
+              </Link>
               <Link to="/register">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white/10">
                   Sign Up for Free

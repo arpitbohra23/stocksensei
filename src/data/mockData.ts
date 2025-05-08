@@ -1,5 +1,5 @@
 
-import { Course, Category, User } from '../types';
+import { Course, Category, User, Mentor } from '../types';
 
 export const mockUsers: User[] = [
   {
@@ -130,4 +130,115 @@ export const mockCategories: Category[] = [
   { id: '6', name: 'Trading Psychology', courses: 22 },
   { id: '7', name: 'Risk Management', courses: 35 },
   { id: '8', name: 'Algorithmic Trading', courses: 29 },
+];
+
+export const mockMentors: Mentor[] = [
+  {
+    id: '2',
+    name: 'Sarah Johnson',
+    title: 'Senior Stock Trader & Technical Analyst',
+    avatar: 'https://i.pravatar.cc/300?img=2',
+    bio: 'Former Wall Street trader with 15 years of experience in equity markets. Specialized in swing trading and technical analysis with a proven track record of consistent profitability.',
+    rating: 4.9,
+    reviewCount: 128,
+    hourlyRate: 150,
+    availability: 'Weekdays 9am-5pm EST',
+    specialties: ['Technical Analysis', 'Stock Trading', 'Risk Management', 'Candlestick Patterns'],
+    experience: 15,
+    joinedDate: '2022-03-15',
+    languages: [
+      { name: 'English', level: 'Native' },
+      { name: 'Spanish', level: 'Intermediate' }
+    ]
+  },
+  {
+    id: '4',
+    name: 'Robert Williams',
+    title: 'Technical Analysis Expert & Author',
+    avatar: 'https://i.pravatar.cc/300?img=8',
+    bio: 'Author of "Mastering Chart Patterns" and former hedge fund analyst. Specializes in advanced technical analysis techniques and algorithmic trading strategies.',
+    rating: 4.8,
+    reviewCount: 95,
+    hourlyRate: 175,
+    availability: 'Weekends & Evenings',
+    specialties: ['Advanced Technical Analysis', 'Algorithmic Trading', 'Market Indicators', 'Trading Systems'],
+    experience: 12,
+    joinedDate: '2022-06-22',
+    languages: [
+      { name: 'English', level: 'Native' },
+      { name: 'German', level: 'Fluent' }
+    ]
+  },
+  {
+    id: '5',
+    name: 'Michael Chen',
+    title: 'Professional Forex Trader',
+    avatar: 'https://i.pravatar.cc/300?img=11',
+    bio: 'Full-time forex trader with expertise in currency pairs and macroeconomic analysis. Developed multiple profitable trading systems focused on trend following and breakout strategies.',
+    rating: 4.7,
+    reviewCount: 84,
+    hourlyRate: 120,
+    availability: 'Mon-Thu, flexible hours',
+    specialties: ['Forex', 'Currency Pairs', 'Macroeconomic Analysis', 'Trend Following'],
+    experience: 9,
+    joinedDate: '2022-09-10',
+    languages: [
+      { name: 'English', level: 'Fluent' },
+      { name: 'Mandarin', level: 'Native' },
+      { name: 'Japanese', level: 'Intermediate' }
+    ]
+  },
+  {
+    id: '6',
+    name: 'Alex Thompson',
+    title: 'Cryptocurrency Trading Specialist',
+    avatar: 'https://i.pravatar.cc/300?img=15',
+    bio: 'Early Bitcoin adopter and crypto trading expert since 2013. Specializes in cryptocurrency market cycles, on-chain analysis, and DeFi trading strategies.',
+    rating: 4.8,
+    reviewCount: 76,
+    hourlyRate: 160,
+    availability: 'Flexible schedule',
+    specialties: ['Cryptocurrency', 'Bitcoin', 'Ethereum', 'DeFi', 'Blockchain Analysis'],
+    experience: 10,
+    joinedDate: '2022-05-18',
+    languages: [
+      { name: 'English', level: 'Native' }
+    ]
+  },
+  {
+    id: '7',
+    name: 'Emma Rodriguez',
+    title: 'Trading Psychologist & Coach',
+    avatar: 'https://i.pravatar.cc/300?img=25',
+    bio: 'Trading psychologist with a background in behavioral finance. Helps traders overcome emotional biases and develop disciplined trading practices for long-term success.',
+    rating: 4.9,
+    reviewCount: 112,
+    hourlyRate: 140,
+    availability: 'Tue-Fri, business hours',
+    specialties: ['Trading Psychology', 'Emotional Control', 'Risk Management', 'Trading Journal Analysis'],
+    experience: 8,
+    joinedDate: '2023-01-12',
+    languages: [
+      { name: 'English', level: 'Fluent' },
+      { name: 'Spanish', level: 'Native' }
+    ]
+  },
+  {
+    id: '8',
+    name: 'David Kim',
+    title: 'Options Trading Expert',
+    avatar: 'https://i.pravatar.cc/300?img=33',
+    bio: 'Former market maker at Chicago Board Options Exchange with deep knowledge of options strategies and volatility trading. Specializes in income generation through options.',
+    rating: 4.7,
+    reviewCount: 68,
+    hourlyRate: 190,
+    availability: 'Mon, Wed, Fri',
+    specialties: ['Options Trading', 'Volatility Strategies', 'Iron Condors', 'Covered Calls', 'Risk Management'],
+    experience: 14,
+    joinedDate: '2023-03-05',
+    languages: [
+      { name: 'English', level: 'Native' },
+      { name: 'Korean', level: 'Fluent' }
+    ]
+  }
 ];

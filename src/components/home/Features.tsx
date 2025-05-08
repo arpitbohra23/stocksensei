@@ -7,9 +7,9 @@ const Features = () => {
     <section className="py-16 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-12">
-          <h2 className="text-3xl font-bold text-gray-900">Why Choose EduSpace</h2>
+          <h2 className="text-3xl font-bold text-gray-900">Why Choose StockSensei</h2>
           <p className="text-gray-600 mt-4">
-            Our platform offers a range of features designed to provide you with the best online learning experience
+            Our platform offers a range of features designed to provide you with the best trading education experience
           </p>
         </div>
         
@@ -18,9 +18,9 @@ const Features = () => {
             <div className="inline-flex items-center justify-center bg-brand-blue/10 w-16 h-16 rounded-full mb-6">
               <MonitorPlay className="w-8 h-8 text-brand-blue" />
             </div>
-            <h3 className="text-xl font-bold text-gray-900 mb-4">HD Video Courses</h3>
+            <h3 className="text-xl font-bold text-gray-900 mb-4">HD Trading Videos</h3>
             <p className="text-gray-600">
-              Access high-quality video content with clear explanations and demonstrations to enhance your learning experience.
+              Access high-quality trading videos with clear market analysis and trading strategy demonstrations.
             </p>
           </div>
           
@@ -28,9 +28,9 @@ const Features = () => {
             <div className="inline-flex items-center justify-center bg-brand-purple/10 w-16 h-16 rounded-full mb-6">
               <Award className="w-8 h-8 text-brand-purple" />
             </div>
-            <h3 className="text-xl font-bold text-gray-900 mb-4">Certificates</h3>
+            <h3 className="text-xl font-bold text-gray-900 mb-4">Trading Certification</h3>
             <p className="text-gray-600">
-              Receive certificates upon course completion to showcase your skills and knowledge to potential employers.
+              Earn certificates upon course completion to showcase your trading expertise to potential employers or clients.
             </p>
           </div>
           
@@ -38,9 +38,9 @@ const Features = () => {
             <div className="inline-flex items-center justify-center bg-brand-teal/10 w-16 h-16 rounded-full mb-6">
               <BookOpen className="w-8 h-8 text-brand-teal" />
             </div>
-            <h3 className="text-xl font-bold text-gray-900 mb-4">Expert Instructors</h3>
+            <h3 className="text-xl font-bold text-gray-900 mb-4">Expert Market Mentors</h3>
             <p className="text-gray-600">
-              Learn from industry experts with years of practical experience in their respective fields.
+              Learn from professional traders with years of market experience and proven trading strategies.
             </p>
           </div>
         </div>

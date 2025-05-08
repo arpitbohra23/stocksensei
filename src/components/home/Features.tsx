@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { MonitorPlay, Certificate, BookOpen } from 'lucide-react';
+import { MonitorPlay, Award, BookOpen } from 'lucide-react';
 
 const Features = () => {
   return (
@@ -26,7 +26,7 @@ const Features = () => {
           
           <div className="bg-gray-50 p-8 rounded-xl text-center">
             <div className="inline-flex items-center justify-center bg-brand-purple/10 w-16 h-16 rounded-full mb-6">
-              <Certificate className="w-8 h-8 text-brand-purple" />
+              <Award className="w-8 h-8 text-brand-purple" />
             </div>
             <h3 className="text-xl font-bold text-gray-900 mb-4">Certificates</h3>
             <p className="text-gray-600">

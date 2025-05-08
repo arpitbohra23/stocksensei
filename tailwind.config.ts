@@ -63,12 +63,18 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Custom colors for our course platform
+				// Custom colors for our trading platform
 				'brand-blue': '#4F46E5',
 				'brand-purple': '#8B5CF6',
 				'brand-teal': '#06B6D4',
 				'brand-light': '#F3F4F6',
 				'brand-dark': '#1F2937',
+				// New red and black theme colors
+				'bull-red': '#ea384c',
+				'bear-black': '#121212',
+				'market-gray': '#333333',
+				'chart-green': '#00C07F',
+				'chart-red': '#FF3B30',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -96,6 +102,10 @@ export default {
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out'
+			},
+			backgroundImage: {
+				'bull-bear-gradient': 'linear-gradient(to right, #ea384c, #121212)',
+				'trading-pattern': 'url("/images/trading-pattern.svg")',
 			}
 		}
 	},
